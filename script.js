@@ -16,6 +16,7 @@ const factTemplates = [
     "[member] has a lucky gaming cum sock that is never washed.",
     "[member] can play games upside down with surprising accuracy.",
     "[member] once broke three keyboards in a single rage-quit.",
+    "[member] sweats enough in one gaming session to quench a small village in Africa of their thirst."
     "[member] consumes exactly 2.7 bags of hot chips per gaming session."
 ];
 
