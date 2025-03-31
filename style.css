@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'EngraversOldEnglish';
+    src: url('fonts/EngraversOldEnglish.ttf') format('truetype');
+}
+
+/* Add this new style */
+#daily-member {
+    font-weight: bold;
+    color: #2ecc71;
+    font-size: 1.2rem;
+}
+
+/* Rest remains same as previous version */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.main-header {
+    background: #2ecc71;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.subtitle {
+    font-family: 'EngraversOldEnglish', 'Old English Text MT', serif;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    color: #ecf0f1;
+    margin-top: 0.5rem;
+}
+
+.daily-section {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 0 1rem;
+}
+
+.content-box {
+    background: #2c3e50;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    transition: transform 0.3s ease;
+}
+
+.content-box:hover {
+    transform: translateY(-3px);
+}
+
+.main-footer {
+    background: #34495e;
+    color: #bdc3c7;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .daily-section {
+        margin: 1rem;
+    }
+    
+    .main-header h1 {
+        font-size: 1.5rem;
+    }
+}
